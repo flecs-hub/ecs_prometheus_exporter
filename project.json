@@ -1,0 +1,13 @@
+{
+    "id": "ecs_prometheus_exporter",
+    "type": "application",
+    "value": {
+        "author": "Jane Doe",
+        "description": "A simple example demonstrating the Prometheus exporter",
+        "use": [
+            "flecs",
+            "flecs.systems.civetweb",
+            "flecs.systems.prometheus"
+        ]
+    }
+}
